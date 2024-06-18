@@ -4,128 +4,120 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sanjana Prabhakar</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+Knujsl7/1L_dstPt3HV5HzF6Gvk/e3s4Wz6iJgD/+ub2oU" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
-      :root {
-          --primary-color: #333;
-          --secondary-color: #337ab7;
-          --background-color: #f9f9f9;
-          --font-size: 16px;
-          --line-height: 1.6;
-          --max-width: 1200px;
-          --padding: 2em;
-          --border-radius: 8px;
-          --box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-          --heading-font: 'Georgia', serif;
-          --body-font: 'Arial', sans-serif;
-          --transition: all 0.3s ease;
-      }
-      
-      * {
-          box-sizing: border-box;
-          margin: 0;
-          padding: 0;
-      }
-      
-      body {
-          font-family: var(--body-font);
-          font-size: var(--font-size);
-          line-height: var(--line-height);
-          color: var(--primary-color);
-          background-color: var(--background-color);
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          padding: var(--padding);
-      }
-      
-      header {
-          background-color: var(--primary-color);
-          color: #fff;
-          padding: var(--padding);
-          text-align: center;
-          width: 100%;
-          max-width: var(--max-width);
-          border-radius: var(--border-radius);
-          margin-bottom: var(--padding);
-          box-shadow: var(--box-shadow);
-      }
-      
-      header h1 {
-          font-size: 2.5em;
-          margin-bottom: 0.5em;
-          font-family: var(--heading-font);
-      }
-      
-      #contactInfo {
-          font-size: 1.25em;
-      }
-      
-      #portfolio {
-          padding: 3rem;
-      }
-      
-      #portfolio h2 {
-          font-size: 24px;
-          font-weight: bold;
-          margin-bottom: 20px;
-      }
-      
-      #portfolio p {
-          font-size: 18px;
-          color: #666;
-      }
-      
-      #portfolio ul {
-          list-style: none;
-          padding: 0;
-          margin: 0;
-      }
-      
-      #portfolio li {
-          display: inline-block;
-          margin-right: 20px;
-      }
-      
-      #portfolio a {
-          text-decoration: none;
-          color: #337ab7;
-      }
-      
-      #portfolio a:hover {
-          color: #23527c;
-      }
-      
-      .icon {
-          font-size: 24px;
-          width: 24px;
-          height: 24px;
-          display: inline-block;
-          margin: 0 10px;
-      }
-      
-      .profile-links img {
-          width: 24px;
-          height: 24px;
-          object-fit: cover;
-          border-radius: 4px;
-          display: inline-block;
-          margin: 0 10px;
-          transition: transform 0.2s ease-in-out;
-      }
-      
-      .profile-links img:hover {
-          transform: scale(1.1);
-      }
-      
-      @media (max-width: 768px) {
-          header {
-              padding: 1rem;
-          }
-          #portfolio {
-              padding: 2rem;
-          }
-      }
+        :root {
+            --primary-color: #333;
+            --secondary-color: #337ab7;
+            --background-color: #f9f9f9;
+            --font-size: 16px;
+            --line-height: 1.6;
+            --max-width: 1200px;
+            --padding: 2em;
+            --border-radius: 8px;
+            --box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            --heading-font: 'Georgia', serif;
+            --body-font: 'Arial', sans-serif;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: var(--body-font);
+            font-size: var(--font-size);
+            line-height: var(--line-height);
+            color: var(--primary-color);
+            background-color: var(--background-color);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: var(--padding);
+        }
+
+        header {
+            background-color: var(--primary-color);
+            color: #fff;
+            padding: var(--padding);
+            text-align: center;
+            width: 100%;
+            max-width: var(--max-width);
+            border-radius: var(--border-radius);
+            margin-bottom: var(--padding);
+            box-shadow: var(--box-shadow);
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 0.5em;
+            font-family: var(--heading-font);
+        }
+
+        #contactInfo {
+            font-size: 1.25em;
+        }
+
+        #portfolio {
+            padding: 3rem;
+            max-width: var(--max-width);
+            text-align: center;
+        }
+
+        #portfolio h2 {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        #portfolio p {
+            font-size: 18px;
+            color: #666;
+        }
+
+        #portfolio ul {
+            list-style: none;
+            padding: 0;
+            margin: 20px 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        #portfolio li {
+            margin: 0 10px;
+        }
+
+        #portfolio a {
+            text-decoration: none;
+            color: #337ab7;
+        }
+
+        #portfolio a:hover {
+            color: #23527c;
+        }
+
+        .profile-links img {
+            width: 24px;
+            height: 24px;
+            object-fit: cover;
+            border-radius: 4px;
+            transition: transform 0.2s ease-in-out;
+        }
+
+        .profile-links img:hover {
+            transform: scale(1.1);
+        }
+
+        @media (max-width: 768px) {
+            header {
+                padding: 1rem;
+            }
+            #portfolio {
+                padding: 2rem;
+            }
+        }
     </style>
 </head>
 <body>
@@ -142,7 +134,9 @@
                 <li><a href="https://orcid.org/0000-0003-4840-7371" target="_blank" tabindex="0"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" alt="ORCID"></a></li>
                 <li><a href="https://www.researchgate.net/profile/S-Prabhakar" target="_blank" tabindex="0"><img src="https://theme.zdassets.com/theme_assets/11199769/02b935144b9a19c226cc526d6a8c452493d2bca1.png" alt="ResearchGate"></a></li>
                 <li><a href="https://www.linkedin.com/in/sanjana-sp" target="_blank" tabindex="0"><img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn"></a></li>
+                <li><a href="https://www.canva.com/design/DAGFtZn32A8/Q746clk3DSci-xuC-F-39w/view?utm_content=DAGFtZn32A8&utm_campaign=designshare&utm_medium=embeds&utm_source=link" target="_blank" tabindex="0"><img src="https://cdn-icons-png.flaticon.com/512/2099/2099107.png" alt="CV"></a></li>
             </ul>
+            
         </section>
     </main>
     <script src="script.js"></script>
